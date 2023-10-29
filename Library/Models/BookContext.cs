@@ -8,7 +8,7 @@ namespace Library.Models
         {
             Database.EnsureCreated();
         }
-        public DbSet<Book> BooksItems { get; set; } = null!;
+        public DbSet<Book> Book { get; set; } = null!;
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

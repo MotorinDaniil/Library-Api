@@ -60,6 +60,8 @@ app.MapDelete("api/books/{id:int}", async (int id, BookContext db) =>
 
 app.MapPost("api/books", async (Book book, BookContext db) =>
 {
+    if (book.Id <= 0 )
+        book.Id = 0;
     await db.Book.AddAsync(book);
     await db.SaveChangesAsync();
     return book;

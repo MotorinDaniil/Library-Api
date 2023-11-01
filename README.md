@@ -2,6 +2,8 @@
 # Instruction how to use this API
 To open this project you can use Visual Studio.
 You can clone this repository in Visual Studio.
+You also need to change connection strings to connect to your Sql Server Managment Studio in files Program.cs (on line 11)
+and BookContext.cs (on line 18). You need change Data Source to yours.
 Then run this Api in Visual Studio.
 After running this Api you will see Swagger page. Using this page you can test this Api 
 On this page you can see all controllers CRUD actions:

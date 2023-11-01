@@ -8,6 +8,7 @@ On this page you can see all controllers CRUD actions:
 4) Get book by ISBN (Get)
 5) Edit book information (Put)
 6) Delete book (Delete)
+   
 To execute action you need to chose action, press button Try it out then press button Execute.
 After you will see server response.
 Bellow all the actions you can see 2 schemas(models):

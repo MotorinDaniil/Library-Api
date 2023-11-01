@@ -1,6 +1,9 @@
 # Library
 # Instruction how to use this API
-After executing this Api you will see Swagger page. Using this page you can test this Api 
+To open this project you can use Visual Studio.
+You can clone this repository in Visual Studio.
+Then run this Api in Visual Studio.
+After running this Api you will see Swagger page. Using this page you can test this Api 
 On this page you can see all controllers CRUD actions:
 1) Get all books (Get)
 2) Create new book (Post)
